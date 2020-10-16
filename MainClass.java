@@ -23,7 +23,7 @@ public class MainClass {
         driver.findElement(By.xpath("//a[contains(@class, 'compose-button compose-button_white')]")).click();
         driver.findElement(By.xpath("//input[contains(@tabindex,'100')]")).sendKeys("idedov@at-consulting.ru");
         driver.findElement(By.xpath("//input[contains(@name,'Subject')]")).sendKeys("Test task");
-        driver.findElement(By.xpath("//div[@role='textbox']")).sendKeys("http://google.com");
+        driver.findElement(By.xpath("//div[@role='textbox']")).sendKeys("https://github.com/newbullet23/Test-task.git");
         driver.findElement(By.xpath("//span[contains(@class,'button2_primary')]")).click();
         driver.quit();
     }
